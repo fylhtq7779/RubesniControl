@@ -29,6 +29,10 @@ html {
     margin-bottom: 0px;
 }
 
+#menulines {
+    margin-right: 25px;
+}
+
 .menu a {
     display: flex;
 }
@@ -107,6 +111,10 @@ html {
 }
 
 @media screen and (min-width: 426px) {
+
+    body {
+        margin: 20px; /* Отступ со всех сторон страницы */
+    }
 
     #menulines {
         display: none;
