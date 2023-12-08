@@ -1,0 +1,101 @@
+:root {
+    font-family: 'Rubik', sans-serif;
+    font-size: 62.5%;
+}
+* {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-weight: 900;
+    color: #fff;
+}
+
+body {
+    background-color: #2D2D2D;
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #575555;
+    padding-bottom: 10px;
+}
+
+.menu a {
+    display: flex;
+}
+
+.textOne {
+    font-size: 3.0rem;
+}
+
+.textTwo {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.Sec span {
+    color: #00D5E4;
+    font-weight: 900;
+}
+
+.motor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.motor img {
+    display: flex;
+    transform: rotate(39.694deg);
+    flex-shrink: 0;
+    max-width: 200px; /* базовый размер картинки */
+    width: 100%; /* масштабирование в зависимости от ширины родителя */
+    height: auto; /* поддержание пропорций картинки */
+}
+
+.foot {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.foot-text {
+    font-weight: 400;
+    font-size: 1.6rem;
+    margin-left: 50px;
+}
+
+.imgOne {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+}
+
+.foreImg {
+    margin-left: -102px;
+}
+
+.imgTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.foreImgTwo {
+    margin-left: -102px;
+    margin-bottom: -49px;
+}
+
+.pm {
+    margin-left: -60px;
+    font-size: 1.6rem;
+}
